@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ad Block
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  A script which removes ads from datenbanken-verstehen.de
 // @author       https://github.com/x47base
 // @license      MIT
