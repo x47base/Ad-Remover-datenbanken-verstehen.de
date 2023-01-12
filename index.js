@@ -33,4 +33,19 @@
     for (var i = 0; i < len; i++){
         remove(`.${ads_datenbanken_de[i]}`)
     }
+    function getImagesByAlt(alt) {
+        var allImages = document.getElementsByTagName("img");
+        var images = [];
+        for (var i = 0, len = allImages.length; i < len; ++i) {
+            if (allImages[i].alt == alt) {
+                images.push(allImages[i]);
+            }
+        }
+        return images;
+    }
+    const AdImages = getImagesByAlt("autopromo");
+    const len2 = AdImages.length
+    for (var v = 0; v < len2; v++){
+        getImageByAlt[v].parentNode.removeChild(getImageByAlt[v]);
+    }
 })();
