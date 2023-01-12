@@ -27,6 +27,7 @@
             'ad-block-text',
             'ad-block-text-links',
             'ad-block-text-link',
+            'videoAdUi',
         ]
         const len = ads_datenbanken_de.length
         const remove = (sel) => document.querySelectorAll(sel).forEach(el => el.remove());
